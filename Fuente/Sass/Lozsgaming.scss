@@ -1,0 +1,361 @@
+$color-principal:#ffd11a;
+$color-blanco:#FFF;
+$color-negro:black;
+body {
+	background-color: $color-blanco;
+
+}
+
+ //cabecera
+ //Tipo de letra
+ nav {
+	display: flex;
+	justify-content: flex-geo;
+	align-items: center;
+
+	.LozsGaming {
+		font-size: xx-large;
+		font-family: Prompt;
+	 
+	 }
+	 .nav-enlace {
+		background: $color-principal;
+		color: $color-negro;
+		padding: 14px 16px;
+		display: inline-block;
+		text-decoration: none;
+		font-family: Prompt;
+		
+	 
+	 }
+	 a{
+		text-decoration: none;
+		color: black;
+	 }
+	 //buscador
+ 
+ 
+ 	body,
+ 	div,
+ 	fieldset {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+ 	}
+ 
+ 
+ 	.cajabuscar {
+		float: none;
+		width: 100%;
+		max-width: 350px;
+		margin-bottom: 25px;
+		margin-top: 29px;
+		margin-left: 30px;
+		display: inline-block;
+		text-align: left;
+ 	}
+ 
+ 	#buscarform {
+		padding: 0;
+		float: left;
+		clear: both;
+		width: 100%;
+		position: relative;
+ 	}
+ 
+	#buscarform fieldset {
+		float: left
+ 	}
+ 
+ 	#buscarform .search {
+		font-size: 20px;
+		top: 0px;
+		color: $color-blanco;
+		background: $color-principal;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 9px;
+		height: 24px;
+		width: 24px;
+		text-align: center;
+ 	}
+ 
+ 	#buscarform fieldset {
+		width: 100%
+ }
+ 
+ 	#s {
+		width: 100%;
+		background-color: $color-blanco;
+		float: left;
+		padding: 8px 0;
+		text-indent: 10px;
+		color: #555555;
+		border: 1px solid $color-blanco;
+		box-sizing: border-box;
+		height: 42px;
+ }
+ 
+ 	.button {
+		right: 0;
+		top: 0;
+		padding: 9px 0;
+		float: right;
+		border: 0;
+		width: 42px;
+		height: 42px;
+		cursor: pointer;
+		text-align: center;
+		padding-top: 10px;
+		color: #a4a4a4;
+		transition: all 0.25s linear;
+		background: transparent;
+		z-index: 10;
+		position: absolute;
+		border: 0;
+		vertical-align: top;
+	}
+
+	.usuario {
+		display: inline;
+		position: absolute;
+		width: 3%;
+		height: 5%;
+		left: 92%;
+	 }
+	 
+	 .carrito {
+		display: inline;
+		position: absolute;
+		width: 3%;
+		height: 5%;
+		left: 95.5%;
+	 }
+ 
+ 
+ } 
+
+
+ //menu
+ #menu {
+	background-color: $color-principal;
+	border: 1px solid $color-negro;
+	 }
+ 
+ 
+ label {
+	size: 500px;
+	color: $color-negro;
+	padding: 15px ;
+   
+ }
+
+ 
+ //Fotos de los juegos
+ #fifacaja {
+	display: flex;
+	align-items: center;
+
+	.fifa {
+		width: 100%;
+		border: rgb(0, 0, 0) 1px solid;
+	 
+	 
+	 }
+ 
+ }
+ 
+
+ //Tamaño Fotos tendencias 
+ #tendencias {
+	padding: 90px;
+	margin: 300px;
+
+ }
+
+ 
+ .todafoto{
+  //Posicionamiento de las fotos
+  .caja1 {
+	display: flex;
+	justify-content: center;
+
+	.callofduty {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .blackops1 {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .counter {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+ }
+ 
+ .caja2 {
+	display: flex;
+	justify-content: center;
+
+	.garry {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .over {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .roqued {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+ }
+ 
+ .caja3 {
+	display: flex;
+	justify-content: center;
+
+	.uncharted {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .targeta {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+	 
+	 .spiderman {
+		width: 25%;
+		height: 15%;
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	 }
+ }
+}
+ 
+ 
+ //LETRAS TENDENCIAS
+ .tendenciash3 {
+	font-size: xx-large;
+	font-family: Prompt;
+ }
+ 
+ //Pie
+ #footer {
+	background-color: $color-principal;
+	height: 150px;
+	padding: 20px;
+
+	.pie {
+		display: flex;
+		justify-content: space-around;
+	 }
+
+	 .imagenred {
+		width: 30px;
+		height: 30px;
+	 }
+	 
+	 .redes {
+		display: flex;
+	 }
+ }
+
+//Responsive
+@media screen and (max-width: 1300px) {
+	nav .cajabuscar{
+		display: none;
+		// visibility:hidden;
+	}
+	nav .usuario {
+		width: 4%;
+		height: 4%;
+	}
+	nav .carrito {
+		width: 4%;
+		height: 4%;
+	}
+}
+@media screen and (max-width: 870px) {
+	nav .cajabuscar {
+		display: none;
+		// visibility:hidden;
+	}
+	nav .nav-enlace {
+		display: none;
+		// visibility:hidden;
+	}
+	nav .usuario  {
+		width: 4%;
+		height: 4%;
+	}
+	nav .carrito {
+		width: 4%;
+		height: 4%;
+	}
+	.terminos {
+		display: none;
+		// visibility:hidden;
+	}
+}
+@media screen and (max-width: 450px) {
+	nav .cajabuscar{
+		display: none;
+		// visibility:hidden;
+	}
+	nav .nav-enlace{
+		display: none;
+		// visibility:hidden;
+		
+	}
+	nav .usuario{
+		width: 3%;
+		height: 2%;
+		display: none;
+		// visibility:hidden;
+	}
+	nav .carrito{
+		width: 3%;
+		height: 2%;
+		display: none;
+		// visibility:hidden;
+	}
+	.terminos {
+		display: none;
+		// visibility:hidden;
+	}
+}

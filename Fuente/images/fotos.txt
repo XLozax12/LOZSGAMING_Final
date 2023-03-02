@@ -1,0 +1,3 @@
+Imágenes utilizadas, especificando licencia, resolución 
+-He utilizado formato jpg y png ya que me parecen las mas adecuadaas y las que menos 
+dan problemas las paginas.

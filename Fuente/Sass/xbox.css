@@ -1,0 +1,287 @@
+body {
+  background-color: #FFF;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav .LozsGaming {
+  font-size: xx-large;
+  font-family: Prompt;
+}
+nav .nav-enlace {
+  background: #ffd11a;
+  color: black;
+  padding: 14px 16px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Prompt;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav body,
+nav div,
+nav fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+nav .cajabuscar {
+  float: none;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 25px;
+  margin-top: 29px;
+  margin-left: 30px;
+  display: inline-block;
+  text-align: left;
+}
+nav #buscarform {
+  padding: 0;
+  float: left;
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+nav #buscarform fieldset {
+  float: left;
+}
+nav #buscarform .search {
+  font-size: 20px;
+  top: 0px;
+  color: #FFF;
+  background: #ffd11a;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 9px;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+nav #buscarform fieldset {
+  width: 100%;
+}
+nav #s {
+  width: 100%;
+  background-color: #FFF;
+  float: left;
+  padding: 8px 0;
+  text-indent: 10px;
+  color: #555555;
+  border: 1px solid #FFF;
+  box-sizing: border-box;
+  height: 42px;
+}
+nav .button {
+  right: 0;
+  top: 0;
+  padding: 9px 0;
+  float: right;
+  border: 0;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+  color: #a4a4a4;
+  transition: all 0.25s linear;
+  background: transparent;
+  z-index: 10;
+  position: absolute;
+  border: 0;
+  vertical-align: top;
+}
+nav .usuario {
+  display: inline;
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  left: 92%;
+}
+nav .carrito {
+  display: inline;
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  left: 95.5%;
+}
+
+#menu {
+  background-color: #ffd11a;
+  border: 1px solid black;
+}
+
+label {
+  size: 500px;
+  color: black;
+  padding: 15px 90px;
+  display: inline-block;
+}
+
+#plataforma {
+  font-family: Prompt;
+}
+
+.tendencias .todafoto .caja1 {
+  display: flex;
+  justify-content: center;
+}
+.tendencias .todafoto .caja1 .callofduty {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja1 .blackops1 {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja1 .counter {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja2 {
+  display: flex;
+  justify-content: center;
+}
+.tendencias .todafoto .caja2 .garry {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja2 .over {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja2 .roqued {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja3 {
+  display: flex;
+  justify-content: center;
+}
+.tendencias .todafoto .caja3 .uncharted {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja3 .targeta {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+.tendencias .todafoto .caja3 .spiderman {
+  width: 25%;
+  height: 15%;
+  margin: auto;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 20px;
+}
+
+.tendenciash3 {
+  font-size: xx-large;
+  font-family: Prompt;
+}
+
+#footer {
+  background-color: #ffd11a;
+  height: 150px;
+  padding: 20px;
+}
+#footer .pie {
+  display: flex;
+  justify-content: space-around;
+}
+#footer .imagenred {
+  width: 30px;
+  height: 30px;
+}
+#footer .redes {
+  display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+  nav .cajabuscar {
+    display: none;
+  }
+  nav .usuario {
+    width: 4%;
+    height: 4%;
+  }
+  nav .carrito {
+    width: 4%;
+    height: 4%;
+  }
+}
+@media screen and (max-width: 870px) {
+  nav .cajabuscar {
+    display: none;
+  }
+  nav .nav-enlace {
+    display: none;
+  }
+  nav .usuario {
+    width: 4%;
+    height: 4%;
+  }
+  nav .carrito {
+    width: 4%;
+    height: 4%;
+  }
+  .terminos {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .body {
+    flex: 100%;
+  }
+  nav .cajabuscar {
+    display: none;
+  }
+  nav .nav-enlace {
+    display: none;
+  }
+  nav .usuario {
+    width: 3%;
+    height: 2%;
+    display: none;
+  }
+  nav .carrito {
+    width: 3%;
+    height: 2%;
+    display: none;
+  }
+  .terminos {
+    display: none;
+  }
+  label {
+    padding: 9px 10px;
+  }
+}/*# sourceMappingURL=xbox.css.map */
