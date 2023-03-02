@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XLozax12/Pablo_Lozano_Proyecto-web-LOZSGAMING.git"
+    "url": "git+https://github.com/XLozax12/LOZSGAMING_Final.git"
   },
   "author": "Pablo Lozano Olvera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/XLozax12/Pablo_Lozano_Proyecto-web-LOZSGAMING/issues"
+    "url": "https://github.com/XLozax12/LOZSGAMING_Final.git/issues"
   },
-  "homepage": "https://github.com/XLozax12/Pablo_Lozano_Proyecto-web-LOZSGAMING#readme",
+  "homepage": "https://github.com/XLozax12/LOZSGAMING_Final.git#readme",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
