@@ -5,9 +5,9 @@
   "browserlist": "> 0.2%, not dead, last 4 versions",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "parcel:desarrollo": "parcel Fuente/index.html",
-    "parcel:produccion": "parcel build Fuente/index.html",
-    "limpiar": "rimraf dist",
+    "parcel:desarrollo": "parcel Fuente/index.html --no-cache",
+    "parcel:produccion": "parcel build Fuente/index.html --no-cache",
+    "limpiar": "rimraf dist .cache .parcel-cache .cache-loader",
     "des": "npm-run-all limpiar parcel:desarrollo",
     "produccion": "npm-run-all limpiar parcel:produccion"
   },
@@ -24,6 +24,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
+    "firebase": "^9.17.2",
     "npm-run-all": "^4.1.5",
     "remixicon": "^2.5.0",
     "rimraf": "^4.1.2"
