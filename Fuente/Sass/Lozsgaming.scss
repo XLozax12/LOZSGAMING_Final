@@ -175,97 +175,39 @@ body {
 	margin: 300px;
 
  }
+ .todasfoto{
+	display: grid;
+	grid-template-columns: 33% 33% 33% ;
+   justify-content: space-around;
+   width: 100%;
+   margin-top: 40px;
 
  
- .todafoto{
-  //Posicionamiento de las fotos
-  .caja1 {
-	display: flex;
-	justify-content: center;
+ .juegos {
 
-	.callofduty {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .blackops1 {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .counter {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
+	margin: auto;
+	border: rgb(0, 0, 0) 1px solid;
+	border-radius: 20px;
  }
  
- .caja2 {
-	display: flex;
-	justify-content: center;
-
-	.garry {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .over {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .roqued {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
+ 
+ 
+ /*Posicionamiento de las fotos*/
+ .caja {
+	max-height: 330px;
+   	line-height: 40px;
+   	margin: 10px;
+   	padding: 20px;
+   /* borde para ver el espacio que ocupa */
+   /* background-color: #ffd11a; 
+	border: 2px solid #000000; 
+	border-radius: 2px; */
+ 
  }
  
- .caja3 {
-	display: flex;
-	justify-content: center;
-
-	.uncharted {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .targeta {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
-	 
-	 .spiderman {
-		width: 25%;
-		height: 15%;
-		margin: auto;
-		border: rgb(0, 0, 0) 1px solid;
-		border-radius: 20px;
-	 }
+  
  }
-}
+ 
  
  
  //LETRAS TENDENCIAS
@@ -295,67 +237,5 @@ body {
 	 }
  }
 
-//Responsive
-@media screen and (max-width: 1300px) {
-	nav .cajabuscar{
-		display: none;
-		// visibility:hidden;
-	}
-	nav .usuario {
-		width: 4%;
-		height: 4%;
-	}
-	nav .carrito {
-		width: 4%;
-		height: 4%;
-	}
-}
-@media screen and (max-width: 870px) {
-	nav .cajabuscar {
-		display: none;
-		// visibility:hidden;
-	}
-	nav .nav-enlace {
-		display: none;
-		// visibility:hidden;
-	}
-	nav .usuario  {
-		width: 4%;
-		height: 4%;
-	}
-	nav .carrito {
-		width: 4%;
-		height: 4%;
-	}
-	.terminos {
-		display: none;
-		// visibility:hidden;
-	}
-}
-@media screen and (max-width: 450px) {
-	nav .cajabuscar{
-		display: none;
-		// visibility:hidden;
-	}
-	nav .nav-enlace{
-		display: none;
-		// visibility:hidden;
-		
-	}
-	nav .usuario{
-		width: 3%;
-		height: 2%;
-		display: none;
-		// visibility:hidden;
-	}
-	nav .carrito{
-		width: 3%;
-		height: 2%;
-		display: none;
-		// visibility:hidden;
-	}
-	.terminos {
-		display: none;
-		// visibility:hidden;
-	}
-}
+// responsive
+@import "imports/import_principal";

@@ -138,80 +138,28 @@ label {
   margin: 300px;
 }
 
-.todafoto .caja1 {
-  display: flex;
-  justify-content: center;
+.todasfoto {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+  /*Posicionamiento de las fotos*/
 }
-.todafoto .caja1 .callofduty {
-  width: 25%;
-  height: 15%;
+.todasfoto .juegos {
   margin: auto;
   border: rgb(0, 0, 0) 1px solid;
   border-radius: 20px;
 }
-.todafoto .caja1 .blackops1 {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja1 .counter {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja2 {
-  display: flex;
-  justify-content: center;
-}
-.todafoto .caja2 .garry {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja2 .over {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja2 .roqued {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja3 {
-  display: flex;
-  justify-content: center;
-}
-.todafoto .caja3 .uncharted {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja3 .targeta {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
-.todafoto .caja3 .spiderman {
-  width: 25%;
-  height: 15%;
-  margin: auto;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
+.todasfoto .caja {
+  max-height: 330px;
+  line-height: 40px;
+  margin: 10px;
+  padding: 20px;
+  /* borde para ver el espacio que ocupa */
+  /* background-color: #ffd11a; 
+  border: 2px solid #000000; 
+  border-radius: 2px; */
 }
 
 .tendenciash3 {
@@ -236,9 +184,14 @@ label {
   display: flex;
 }
 
+/*responsive principal*/
 @media screen and (max-width: 1300px) {
+  .todasfoto {
+    grid-template-columns: repeat(2, 1fr);
+  }
   nav .cajabuscar {
     display: none;
+    /* visibility:hidden;*/
   }
   nav .usuario {
     width: 4%;
@@ -247,28 +200,28 @@ label {
   nav .carrito {
     width: 4%;
     height: 4%;
+  }
+  #spiderman {
+    display: none;
   }
 }
-@media screen and (max-width: 870px) {
-  nav .cajabuscar {
-    display: none;
+@media screen and (max-width: 950px) {
+  .todasfoto {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .todasfoto .caja {
+    display: flex;
+    align-content: center;
   }
   nav .nav-enlace {
-    display: none;
-  }
-  nav .usuario {
-    width: 4%;
-    height: 4%;
-  }
-  nav .carrito {
-    width: 4%;
-    height: 4%;
-  }
-  .terminos {
     display: none;
   }
 }
 @media screen and (max-width: 450px) {
+  .caja img {
+    width: 270px;
+    height: 130px;
+  }
   nav .cajabuscar {
     display: none;
   }
@@ -276,13 +229,9 @@ label {
     display: none;
   }
   nav .usuario {
-    width: 3%;
-    height: 2%;
     display: none;
   }
   nav .carrito {
-    width: 3%;
-    height: 2%;
     display: none;
   }
   .terminos {
