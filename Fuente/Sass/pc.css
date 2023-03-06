@@ -55,7 +55,6 @@ nav #buscarform .search {
   font-size: 20px;
   top: 0px;
   color: #FFF;
-  background: #ffd11a;
   position: absolute;
   right: 0;
   top: 0;
@@ -164,7 +163,7 @@ label {
 
 #footer {
   background-color: #ffd11a;
-  height: 150px;
+  height: 200px;
   padding: 20px;
 }
 #footer .pie {

@@ -152,69 +152,6 @@ body {
    
  }
 
- 
- //Fotos de los juegos
- #fifacaja {
-	display: flex;
-	align-items: center;
-
-	.fifa {
-		width: 100%;
-		border: rgb(0, 0, 0) 1px solid;
-	 
-	 
-	 }
- 
- }
- 
-
- //Tamaño Fotos tendencias 
- #tendencias {
-	padding: 90px;
-	margin: 300px;
-
- }
- .todasfoto{
-	display: grid;
-	grid-template-columns: 33% 33% 33% ;
-   justify-content: space-around;
-   width: 100%;
-   margin-top: 40px;
-
- 
- .juegos {
-
-	margin: auto;
-	border: rgb(0, 0, 0) 1px solid;
-	border-radius: 20px;
- }
- 
- 
- 
- /*Posicionamiento de las fotos*/
- .caja {
-	max-height: 330px;
-   	line-height: 40px;
-   	margin: 10px;
-   	padding: 20px;
-   /* borde para ver el espacio que ocupa */
-   /* background-color: #ffd11a; 
-	border: 2px solid #000000; 
-	border-radius: 2px; */
- 
- }
- 
-  
- }
- 
- 
- 
- //LETRAS TENDENCIAS
- .tendenciash3 {
-	font-size: xx-large;
-	font-family: Prompt;
- }
- 
  //Pie
  #footer {
 	background-color: $color-principal;

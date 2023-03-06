@@ -56,7 +56,6 @@ nav #buscarform .search {
   font-size: 20px;
   top: 0px;
   color: #FFF;
-  background: #ffd11a;
   position: absolute;
   right: 0;
   top: 0;
@@ -169,7 +168,7 @@ label {
 
 #footer {
   background-color: #ffd11a;
-  height: 150px;
+  height: 200px;
   padding: 20px;
 }
 #footer .pie {
@@ -219,8 +218,8 @@ label {
 }
 @media screen and (max-width: 450px) {
   .caja img {
-    width: 270px;
-    height: 130px;
+    width: 290px;
+    height: 140px;
   }
   nav .cajabuscar {
     display: none;

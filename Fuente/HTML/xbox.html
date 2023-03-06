@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Sass/pc.css" type="text/css" rel="stylesheet">
+    <link href="../Sass/xbox.scss" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
     <title>Document</title>
 </head>
 
 <body>
-    <div id="todo">
-        <div id="menu">
+    <section id="todo">
+        <article id="menu">
             <nav>
-                <h1></h1>
                  <!-- <label class="LozsGaming">LozsGaming</label> -->
-            <a href="../index.html" class="LozsGaming">LozsGaming</a>
-                <a href="../HTML/pc.html" class="nav-enlace">PC<img src="../images/pc.png" width="20px" height="20px" alt="pc"> </a>
-                <a href="../HTML/playstation.html" class="nav-enlace">Play Stations<img src="../images/play.jpg" width="20px"
-                        height="20px" alt="play"></a>
-                <a href="../HTML/xbox.html" class="nav-enlace">Xbox<img src="../images/xbox.png" width="20px" height="20px" alt="xbox"></a>
-                <a href="../HTML/nintendo.html" class="nav-enlace">Nintendo<img src="../images/nintendo.png" width="20px" height="20px" alt="nintendo"></a>
+                <a href="../index.html" class="LozsGaming">LozsGaming</a>
+                <a href="../HTML/pc.html" class="nav-enlace"><i class="bi bi-windows"> </i>PC </a>
+                <a href="../HTML/playstation.html" class="nav-enlace"><i class="bi bi-playstation"></i> Play Stations</a>
+                <a href="../HTML/xbox.html" class="nav-enlace"><i class="bi bi-xbox"> </i>Xbox</a>
+                <a href="../HTML/nintendo.html" class="nav-enlace"><i class="bi bi-nintendo-switch"> </i>Nintendo</a>
 
                 <div class="cajabuscar">
                     <form method="get" id="buscarform">
@@ -39,7 +41,7 @@
             </nav>
 
 
-        </div><br>
+        </article><br>
         <a href="../index.html" class="nav-enlace"><img src="../images/flecha.png" width="20px" height="20px" alt="flecha" style="color:#ffd11a ;"></a>
         
 
@@ -49,9 +51,12 @@
         <!--Fotos juegos-->
         <article class="todasfoto">
 
-            <article class="caja">
-                <img class="juegos"  src="../images/fotoxbox.jpg">
-            </article>
+            <!-- enlace que te manda a informacion del juego -->
+            <a href="foto_xbox.html">
+                <article class="caja">
+                    <img class="juegos"  src="../images/fotoxbox.jpg">
+                </article>
+            </a>
             <article class="caja">
                 <img class="juegos" src="../images/blackops1.jpg">
             </article>
@@ -80,11 +85,11 @@
     </section><br>
         <!--Redes sociales(footer)-->
         <footer id="footer">
-            <div class="pie">
-                <section class="">
+            <section class="pie">
+                <article class="">
                     <H1>LozsGaming</H1>
                     <img class="foro" src="../images/estrellas.png" alt="estrellas">
-                </section>
+                </article>
                 <section class="terminos">
                     <p>Términos y condiciones</p>
                     <p>Política de privacidad</p>
@@ -105,7 +110,7 @@
                         <img class="imagenred 4" src="../images/twiter.jpg" alt="twiter">
                     </article>
                 </section>
-            </div>
+            </section>
 
             
         </footer>
@@ -114,7 +119,7 @@
 
 
 
-    </div>
+    </section>
 
 
 </body>
