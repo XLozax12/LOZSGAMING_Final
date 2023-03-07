@@ -1,3 +1,8 @@
+@media screen and (min-width: 1301px) {
+   nav .acceder{
+      display: none;
+    }
+}
 /*responsive principal*/
 @media screen and (max-width: 1300px) {
     .todasfoto{
@@ -18,7 +23,9 @@
     #spiderman{
        display: none;
     }
- 
+    nav .acceder{
+      display: none;
+    }
     
  }
  
@@ -35,7 +42,12 @@
     nav .nav-enlace{
        display:none;
     }
- 
+    nav .fotosNomovil{
+      display: none;
+    }
+    nav .acceder{
+      display: flex;
+    }
  }
  
  
@@ -50,11 +62,11 @@
     nav .nav-enlace{
        display:none;
     }
-    nav .usuario{
-       display:none
+    nav .fotosNomovil{
+      display: none;
     }
-    nav .carrito{
-       display:none;
+    nav .acceder{
+      display: flex;
     }
     .terminos{
        display: none;

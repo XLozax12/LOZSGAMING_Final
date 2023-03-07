@@ -1,4 +1,9 @@
 /*responsive principal*/
+@media screen and (min-width: 1301px) {
+   nav.acceder{
+      display: none;
+    }
+}
 @media screen and (max-width: 1300px) {
     .todasfoto{
        grid-template-columns: repeat(2,1fr);
@@ -18,6 +23,9 @@
     #spiderman{
        display: none;
     }
+    nav.acceder{
+      display: none;
+    }
  
     
  }
@@ -35,6 +43,12 @@
     nav .nav-enlace{
        display:none;
     }
+    nav.fotosNomovil{
+      display: none;
+    }
+    nav.acceder{
+      display: flex;
+    }
  
  }
  
@@ -49,6 +63,12 @@
     }
     nav .nav-enlace{
        display:none;
+    }
+    nav.fotosNomovil{
+      display: none;
+    }
+    nav.acceder{
+      display: flex;
     }
     nav .usuario{
        display:none

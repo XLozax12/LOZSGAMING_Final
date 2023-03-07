@@ -1,65 +1,85 @@
 /*responsive principal*/
+@media screen and (min-width: 1301px) {
+   nav.acceder{
+      display: none;
+    }
+}
 @media screen and (max-width: 1300px) {
-   .todasfoto{
-      grid-template-columns: repeat(2,1fr);
-   }
-   nav .cajabuscar{
-     display:none;
-     /* visibility:hidden;*/
-   }
-   nav .usuario{
-      width: 4%;
-      height: 4%;
-   }
-   nav .carrito{
-      width: 4%;
-      height: 4%;
-   }
-   #spiderman{
+    .todasfoto{
+       grid-template-columns: repeat(2,1fr);
+    }
+    nav .cajabuscar{
+      display:none;
+      /* visibility:hidden;*/
+    }
+    nav .usuario{
+       width: 4%;
+       height: 4%;
+    }
+    nav .carrito{
+       width: 4%;
+       height: 4%;
+    }
+    #spiderman{
+       display: none;
+    }
+    nav.acceder{
       display: none;
-   }
-
-   
-}
-
-
-
-@media screen and (max-width: 950px) {
-   .todasfoto{
-      grid-template-columns: repeat(1,1fr);
-   }
-   .todasfoto .caja{
+    }
+ 
+    
+ }
+ 
+ 
+ 
+ @media screen and (max-width: 950px) {
+    .todasfoto{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .todasfoto .caja{
+       display: flex;
+       align-content: center;
+    }
+    nav .nav-enlace{
+       display:none;
+    }
+    nav.fotosNomovil{
+      display: none;
+    }
+    nav.acceder{
       display: flex;
-      align-content: center;
-   }
-   nav .nav-enlace{
-      display:none;
-   }
-
-}
-
-
-@media screen and (max-width: 450px) {
-   .caja img{
-      width: 270px;
-      height: 130px;
-   }
-   nav .cajabuscar{
-      display:none;
-   }
-   nav .nav-enlace{
-      display:none;
-   }
-   nav .usuario{
-      display:none
-   }
-   nav .carrito{
-      display:none;
-   }
-   .terminos{
+    }
+ 
+ }
+ 
+ 
+ @media screen and (max-width: 450px) {
+    .caja img{
+       width: 270px;
+       height: 130px;
+    }
+    nav .cajabuscar{
+       display:none;
+    }
+    nav .nav-enlace{
+       display:none;
+    }
+    nav.fotosNomovil{
       display: none;
-   }
-   label {
-     padding: 9px 10px;
-  }
-}
+    }
+    nav.acceder{
+      display: flex;
+    }
+    nav .usuario{
+       display:none
+    }
+    nav .carrito{
+       display:none;
+    }
+    .terminos{
+       display: none;
+    }
+    label {
+		padding: 9px 10px;
+	}
+ }

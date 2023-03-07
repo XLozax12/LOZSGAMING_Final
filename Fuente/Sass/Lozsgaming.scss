@@ -1,14 +1,15 @@
-$color-principal:#ffd11a;
-$color-blanco:#FFF;
-$color-negro:black;
+$color-principal: #ffd11a;
+$color-blanco: #FFF;
+$color-negro: black;
+
 body {
 	background-color: $color-blanco;
 
 }
 
- //cabecera
- //Tipo de letra
- nav {
+//cabecera
+//Tipo de letra
+nav {
 	display: flex;
 	justify-content: flex-geo;
 	align-items: center;
@@ -16,37 +17,40 @@ body {
 	.LozsGaming {
 		font-size: xx-large;
 		font-family: Prompt;
-	 
-	 }
-	 .nav-enlace {
+
+	}
+
+	.nav-enlace {
 		background: $color-principal;
 		color: $color-negro;
 		padding: 14px 16px;
 		display: inline-block;
 		text-decoration: none;
 		font-family: Prompt;
-		
-	 
-	 }
-	 a{
+
+
+	}
+
+	a {
 		text-decoration: none;
 		color: black;
-	 }
-	 //buscador
- 
- 
- 	body,
- 	div,
- 	fieldset {
+	}
+
+	//buscador
+
+
+	body,
+	div,
+	fieldset {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
- 	}
- 
- 
- 	.cajabuscar {
+	}
+
+
+	.cajabuscar {
 		float: none;
 		width: 100%;
 		max-width: 350px;
@@ -55,21 +59,21 @@ body {
 		margin-left: 30px;
 		display: inline-block;
 		text-align: left;
- 	}
- 
- 	#buscarform {
+	}
+
+	#buscarform {
 		padding: 0;
 		float: left;
 		clear: both;
 		width: 100%;
 		position: relative;
- 	}
- 
+	}
+
 	#buscarform fieldset {
 		float: left
- 	}
- 
- 	#buscarform .search {
+	}
+
+	#buscarform .search {
 		font-size: 20px;
 		top: 0px;
 		color: $color-blanco;
@@ -80,13 +84,13 @@ body {
 		height: 24px;
 		width: 24px;
 		text-align: center;
- 	}
- 
- 	#buscarform fieldset {
+	}
+
+	#buscarform fieldset {
 		width: 100%
- }
- 
- 	#s {
+	}
+
+	#s {
 		width: 100%;
 		background-color: $color-blanco;
 		float: left;
@@ -96,9 +100,9 @@ body {
 		border: 1px solid $color-blanco;
 		box-sizing: border-box;
 		height: 42px;
- }
- 
- 	.button {
+	}
+
+	.button {
 		right: 0;
 		top: 0;
 		padding: 9px 0;
@@ -124,99 +128,100 @@ body {
 		width: 3%;
 		height: 5%;
 		left: 92%;
-	 }
-	 
-	 .carrito {
+	}
+
+	.carrito {
 		display: inline;
 		position: absolute;
 		width: 3%;
 		height: 5%;
 		left: 95.5%;
-	 }
- 
- 
- } 
+	}
 
 
- //menu
- #menu {
+}
+
+
+//menu
+#menu {
 	background-color: $color-principal;
 	border: 1px solid $color-negro;
-	 }
- 
- 
- label {
+}
+
+
+label {
 	size: 500px;
 	color: $color-negro;
-	padding: 15px ;
-   
- }
+	padding: 15px;
 
- 
- //Fotos de los juegos
- #fifacaja {
+}
+
+
+//Fotos de los juegos
+#fifacaja {
 	display: flex;
 	align-items: center;
 
 	.fifa {
 		width: 100%;
 		border: rgb(0, 0, 0) 1px solid;
-	 
-	 
-	 }
- 
- }
- 
 
- //Tamaño Fotos tendencias 
- #tendencias {
+
+	}
+
+}
+
+
+//Tamaño Fotos tendencias 
+#tendencias {
 	padding: 90px;
 	margin: 300px;
 
- }
- .todasfoto{
+}
+
+.todasfoto {
 	display: grid;
-	grid-template-columns: 33% 33% 33% ;
-   justify-content: space-around;
-   width: 100%;
-   margin-top: 40px;
+	grid-template-columns: 33% 33% 33%;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 40px;
 
- 
- .juegos {
 
-	margin: auto;
-	border: rgb(0, 0, 0) 1px solid;
-	border-radius: 20px;
- }
- 
- 
- 
- /*Posicionamiento de las fotos*/
- .caja {
-	max-height: 330px;
-   	line-height: 40px;
-   	margin: 10px;
-   	padding: 20px;
-   /* borde para ver el espacio que ocupa */
-   /* background-color: #ffd11a; 
+	.juegos {
+
+		margin: auto;
+		border: rgb(0, 0, 0) 1px solid;
+		border-radius: 20px;
+	}
+
+
+
+	/*Posicionamiento de las fotos*/
+	.caja {
+		max-height: 330px;
+		line-height: 40px;
+		margin: 10px;
+		padding: 20px;
+		/* borde para ver el espacio que ocupa */
+		/* background-color: #ffd11a; 
 	border: 2px solid #000000; 
 	border-radius: 2px; */
- 
- }
- 
-  
- }
- 
- 
- 
- //LETRAS TENDENCIAS
- .tendenciash3 {
+
+	}
+
+
+}
+
+
+
+//LETRAS TENDENCIAS
+.tendenciash3 {
 	font-size: xx-large;
 	font-family: Prompt;
- }
- 
- //Pie
- #footer {
+}
+
+//Pie
+#footer {
 	background-color: $color-principal;
 	height: 200px;
 	padding: 20px;
@@ -224,28 +229,28 @@ body {
 	.pie {
 		display: flex;
 		justify-content: space-around;
-	 }
+	}
 
-	 .imagenred {
+	.imagenred {
 		width: 30px;
 		height: 30px;
-	 }
-	 
-	 .redes {
+	}
+
+	.redes {
 		display: flex;
-	 }
- }
+	}
+}
 
 //  Desplegable
-nav.menu_item ul {
+nav .acceder ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	position: relative;
 	float: right;
-  }
-  
-  nav.menu_item #login{
+}
+
+nav .acceder #login {
 	display: inline-block;
 	font-size: 16px;
 	padding: 2px 10px;
@@ -253,32 +258,35 @@ nav.menu_item ul {
 	color: #fff;
 	border: 1px solid #fff;
 	font-weight: 600;
-  
-  }
-  nav.menu_item #login-content {
+}
+
+nav .acceder #login-content {
 	position: absolute;
 	top: 26px;
 	right: 0;
-	z-index: 999;    
-	background: #050505;
+	z-index: 999;
+	background: $color-principal;
 	padding: 15px;
 	border-radius: 10px 0 10px 10px;
-	width: 250px; 
+	width: 250px;
 	display: none;
-  }
-  nav.menu_item a{
+}
+
+nav .acceder a {
 	text-decoration: none;
-  }
-  nav .menu_item {
+}
+
+nav .acceder {
 	text-align: center;
 	color: white;
-  }
-  nav .menu_item:hover {
-	color: #7a7a7a;
+}
+
+nav .acceder:hover {
+	color: red;
 	cursor: pointer;
-  }
-  
-  
+}
+
+
 
 // responsive
 @import "imports/import_principal";

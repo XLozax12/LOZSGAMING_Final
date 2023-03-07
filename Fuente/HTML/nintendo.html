@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Sass/nintendo.scss" type="text/css" rel="stylesheet">
+    <link href="../Sass/playstation.scss" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
     <!-- bootstrap -->
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
     <title>Document</title>
+    <!-- Deplegable Script -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+            $('#login').click(function () {
+                $(this).next('#login-content').slideToggle();
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -18,7 +29,7 @@
         <article id="menu">
             <nav>
                  <!-- <label class="LozsGaming">LozsGaming</label> -->
-                <a href="../index.html" class="LozsGaming">LozsGaming</a>
+            <a href="../index.html" class="LozsGaming">LozsGaming</a>
                 <a href="../HTML/pc.html" class="nav-enlace"><i class="bi bi-windows"> </i>PC </a>
                 <a href="../HTML/playstation.html" class="nav-enlace"><i class="bi bi-playstation"></i> Play Stations</a>
                 <a href="../HTML/xbox.html" class="nav-enlace"><i class="bi bi-xbox"> </i>Xbox</a>
@@ -37,7 +48,29 @@
                 <!-- iniciar sesion -->
                 <img class="usuario" src="../images/usuario.png" alt="usuario">
                 <img class="carrito" src="../images/carrito.png" alt="carrito">
+            
+             <!-- Menu Desplegable -->
+             <nav class="acceder">
+                <ul>
+                    <li>
+                        <a id="login" href="#">Acceder</a>
+                        <article id="login-content">
+                            <form>
+                                <h1><a href="../HTML/pc.html" class="menu_item">PC</a></h1>
+                                <h1><a href="../HTML/playstation.html" class="menu_item"> Play Stations</a></h1>
+                                <h1><a href="../HTML/xbox.html" class="menu_item">Xbox</a></h1>
+                                <h1><a href="../HTML/nintendo.html" class="menu_item">Nintendo</a></h1>
+                                <img src="../images/usuario.png" alt="usuario" width="40px" height="40px">
+                                <img src="../images/carrito.png" alt="carrito" width="40px" height="40px">
+                            </form>
+                        </article>
+                    </li>
+                </ul>
             </nav>
+
+        </nav>
+
+    </section>
 
 
         </article><br>
@@ -51,10 +84,10 @@
         <article class="todasfoto">
 
             <!-- enlace que te manda a informacion del juego -->
-            <a href="mario.html">
+            <a href="callofduty.html">
                 <article class="caja">
                     <img class="juegos"  src="../images/mario.jpg">
-                </article>
+                 </article>
             </a>
             <article class="caja">
                 <img class="juegos" src="../images/blackops1.jpg">

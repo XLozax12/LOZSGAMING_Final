@@ -11,11 +11,19 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>LozsGaming</title>
-    <script src="./js/main.js"></script>
+    <!-- Deplegable Script -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(function () {
+            $('#login').click(function () {
+                $(this).next('#login-content').slideToggle();
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
 </head>
 
 <body>
-
     <section id="menu">
         <nav>
             <!--Menu-->
@@ -28,7 +36,7 @@
             <!--Buscador-->
             <article class="cajabuscar">
                 <form method="get" id="buscarform">
-                    <fieldset    aria-label="fiel">
+                    <fieldset aria-label="fiel">
                         <input type="text" id="s" value="" placeholder="Buscar" aria-label="input" />
                         <a href="#" class="button"><img src="images/lupa.png" width="20px" height="20px" alt="lupa"></a>
                         <input class="button" type="submit" value="" aria-label="button" />
@@ -36,12 +44,32 @@
                     </fieldset>
                 </form>
             </article>
-        
+
             <!--Iniciar Sesion-->
-            <img class="usuario" src="images/usuario.png" alt="usuario">
-            <img class="carrito" src="images/carrito.png" alt="carrito">
-        
-            
+            <div class="fotosNomovil">
+                <img class="usuario" src="images/usuario.png" alt="usuario">
+                <img class="carrito" src="images/carrito.png" alt="carrito">
+            </div>
+
+            <!-- Menu Desplegable -->
+            <nav class="acceder">
+                <ul>
+                    <li>
+                        <a id="login" href="#">Acceder</a>
+                        <article id="login-content">
+                            <form>
+                                <h1><a href="./HTML/pc.html" class="menu_item">PC</a></h1>
+                                <h1><a href="./HTML/playstation.html" class="menu_item"> Play Stations</a></h1>
+                                <h1><a href="./HTML/xbox.html" class="menu_item">Xbox</a></h1>
+                                <h1><a href="./HTML/nintendo.html" class="menu_item">Nintendo</a></h1>
+                                <img src="images/usuario.png" alt="usuario" width="40px" height="40px">
+                                <img src="images/carrito.png" alt="carrito" width="40px" height="40px">
+                            </form>
+                        </article>
+                    </li>
+                </ul>
+            </nav>
+
         </nav>
 
     </section>
@@ -58,10 +86,10 @@
 
             <!-- enlace que te manda a informacion del juego -->
             <a href="HTML/callofduty.html">
-            <article class="caja">
-                <img class="juegos"  src="images/moderwarfare2.jpg">
-            </article>
-        </a>
+                <article class="caja">
+                    <img class="juegos" src="images/moderwarfare2.jpg">
+                </article>
+            </a>
             <article class="caja">
                 <img class="juegos" src="images/blackops1.jpg">
             </article>
@@ -118,13 +146,12 @@
                 </article>
             </section>
         </section>
-        
-      
+
+
     </footer>
 
 
 
 
 </body>
-
 </html>
