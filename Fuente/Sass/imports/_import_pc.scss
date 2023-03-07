@@ -1,8 +1,32 @@
 /*responsive principal*/
+@media screen and (min-width: 1901px) {
+    nav .usuario{
+      // background-color: red;
+      top: 33px;
+      width: 20px;
+      height: 20px;
+   }
+   nav .carrito{
+      top: 33px;
+      width: 20px;
+      height: 20px;
+   }
+}
 @media screen and (min-width: 1301px) {
-   nav.acceder{
+   nav .acceder{
       display: none;
     }
+    nav .usuario{
+      // background-color: red;      
+      top: 33px;
+      width: 30px;
+      height: 30px;
+   }
+   nav .carrito{
+      top: 33px;
+      width: 30px;
+      height: 30px;
+   }
 }
 @media screen and (max-width: 1300px) {
     .todasfoto{
@@ -13,13 +37,17 @@
       /* visibility:hidden;*/
     }
     nav .usuario{
-       width: 4%;
-       height: 4%;
+      // background-color: red;      
+       width: 30px;
+       height: 30px;
+       top: 20;
     }
     nav .carrito{
-       width: 4%;
-       height: 4%;
+      width: 30px;
+      height: 30px;
+      top: 20;
     }
+    
     #spiderman{
        display: none;
     }
@@ -46,6 +74,12 @@
     nav.fotosNomovil{
       display: none;
     }
+    nav .usuario{
+      display:none
+   }
+   nav .carrito{
+      display:none;
+   }
     nav.acceder{
       display: flex;
     }
