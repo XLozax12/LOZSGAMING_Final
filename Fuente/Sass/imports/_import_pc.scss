@@ -12,6 +12,7 @@
       height: 20px;
    }
 }
+// responsive min 1301
 @media screen and (min-width: 1301px) {
    nav .acceder{
       display: none;
@@ -28,6 +29,7 @@
       height: 30px;
    }
 }
+// responsive max 1300
 @media screen and (max-width: 1300px) {
     .todasfoto{
        grid-template-columns: repeat(2,1fr);
@@ -59,7 +61,7 @@
  }
  
  
- 
+//  responsive max 950
  @media screen and (max-width: 950px) {
     .todasfoto{
        grid-template-columns: repeat(1,1fr);
@@ -86,7 +88,7 @@
  
  }
  
- 
+//  responsive max 450
  @media screen and (max-width: 450px) {
     .caja img{
        width: 270px;
