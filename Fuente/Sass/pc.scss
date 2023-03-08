@@ -184,6 +184,7 @@ label {
 
 	/*Posicionamiento de todas las fotos*/
 	.caja {
+		display: flex;
 		max-height: 330px;
 		line-height: 40px;
 		margin: 10px;

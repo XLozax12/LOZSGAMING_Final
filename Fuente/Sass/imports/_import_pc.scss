@@ -34,10 +34,6 @@
     .todasfoto{
        grid-template-columns: repeat(2,1fr);
     }
-    nav .cajabuscar{
-      display:none;
-      /* visibility:hidden;*/
-    }
     nav .usuario{
       // background-color: red;      
        width: 30px;
@@ -59,7 +55,7 @@
  
     
  }
- @media screen and (max-width: 1130px) {
+ @media screen and (max-width: 1112px) {
    nav .cajabuscar{
       display:none;
       /* visibility:hidden;*/
