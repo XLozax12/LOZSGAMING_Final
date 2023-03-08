@@ -89,6 +89,13 @@
     }
  
  }
+
+ @media screen and (max-width: 562px) {
+   .compra{
+      display:none;
+   }
+
+ }
  
 //  responsive max 450
  @media screen and (max-width: 450px) {
