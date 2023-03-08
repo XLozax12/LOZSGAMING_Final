@@ -189,10 +189,7 @@ label {
 		line-height: 40px;
 		margin: 10px;
 		padding: 20px;
-		/* borde para ver el espacio que ocupa */
-		/* background-color: #ffd11a; 
-	border: 2px solid #000000; 
-	border-radius: 2px; */
+
 
 	}
 
@@ -225,6 +222,10 @@ label {
 	.redes {
 		display: flex;
 
+	}
+	.foro{
+		width: 200px;
+		height: 120px;
 	}
 }
 
