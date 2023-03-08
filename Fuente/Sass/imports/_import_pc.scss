@@ -59,6 +59,12 @@
  
     
  }
+ @media screen and (max-width: 1130px) {
+   nav .cajabuscar{
+      display:none;
+      /* visibility:hidden;*/
+    }
+ }
  
  
 //  responsive max 950

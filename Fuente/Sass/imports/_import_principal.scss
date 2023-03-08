@@ -34,10 +34,6 @@
     .todasfoto{
        grid-template-columns: repeat(2,1fr);
     }
-    nav .cajabuscar{
-      display:none;
-      /* visibility:hidden;*/
-    }
     nav .usuario{
       // background-color: red;      
        width: 30px;
@@ -54,6 +50,12 @@
       display: none;
     }
     
+ }
+ @media screen and (max-width: 1130px) {
+   nav .cajabuscar{
+      display:none;
+      /* visibility:hidden;*/
+    }
  }
  
 //  responsive max 950
@@ -80,8 +82,9 @@
  //  responsive max 450
  @media screen and (max-width: 450px) {
     .caja img{
-       width: 290px;
-       height: 140px;
+       width: 100%;
+      //  height: 140px;
+      
     }
     nav .cajabuscar{
        display:none;
