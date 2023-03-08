@@ -24,7 +24,6 @@ nav {
 		background: $color-principal;
 		color: $color-negro;
 		padding: 14px 16px;
-		display: inline-block;
 		text-decoration: none;
 		font-family: Prompt;
 
@@ -47,6 +46,7 @@ nav {
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		
 	}
 
 
@@ -57,8 +57,8 @@ nav {
 		margin-bottom: 25px;
 		margin-top: 29px;
 		margin-left: 30px;
-		display: inline-block;
-		text-align: left;
+		
+		
 	}
 
 	#buscarform {
@@ -67,14 +67,16 @@ nav {
 		clear: both;
 		width: 100%;
 		position: relative;
+		
 	}
 
 	#buscarform fieldset {
 		float: left
+		
 	}
 
 	#buscarform .search {
-		font-size: 20px;
+		font-size: 14px;
 		top: 0px;
 		color: $color-blanco;
 		position: absolute;
@@ -84,10 +86,12 @@ nav {
 		height: 24px;
 		width: 24px;
 		text-align: center;
+		
 	}
 
 	#buscarform fieldset {
 		width: 100%
+		
 	}
 
 	#s {
@@ -100,6 +104,7 @@ nav {
 		border: 1px solid $color-blanco;
 		box-sizing: border-box;
 		height: 42px;
+		background-color: red;
 	}
 
 	.button {
@@ -120,11 +125,11 @@ nav {
 		position: absolute;
 		border: 0;
 		vertical-align: top;
+		
 	}
 
 	.usuario {
-		display: inline;
-		position: absolute;
+
 		width: 3%;
 		height: 5%;
 		top: 13px;
@@ -132,12 +137,14 @@ nav {
 	}
 
 	.carrito {
-		display: inline;
-		position: absolute;
 		width: 3%;
 		height: 5%;
 		top: 13px;
 		left: 95.5%;
+	}
+	.vacio{
+		display: flex;
+		flex-grow: 1;
 	}
 
 
@@ -184,7 +191,7 @@ label {
 .todasfoto {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
 	margin-top: 40px;
 
@@ -200,6 +207,7 @@ label {
 	// fotos
 	/*Posicionamiento de todas las fotos*/
 	.caja {
+		display: flex;
 		max-height: 330px;
 		line-height: 40px;
 		margin: 10px;
@@ -225,8 +233,7 @@ label {
 //Pie
 #footer {
 	background-color: $color-principal;
-	height: 200px;
-	padding: 20px;
+	
 
 	.pie {
 		display: flex;
@@ -240,6 +247,9 @@ label {
 
 	.redes {
 		display: flex;
+	}
+	.foro{
+		bottom: 0%;
 	}
 }
 
@@ -260,6 +270,7 @@ nav .acceder #login {
 	color: #fff;
 	border: 1px solid #fff;
 	font-weight: 600;
+	
 }
 
 nav .acceder #login-content {
@@ -272,21 +283,37 @@ nav .acceder #login-content {
 	border-radius: 10px 0 10px 10px;
 	width: 250px;
 	display: none;
+	border: solid black 1.5px;
+	
 }
 
 nav .acceder a {
 	text-decoration: none;
+	font-size: 18px;
+	font-family: Prompt;
+	
 }
 
 nav .acceder {
 	text-align: center;
 	color: white;
+	
 }
 
 nav .acceder:hover {
 	color: red;
 	cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

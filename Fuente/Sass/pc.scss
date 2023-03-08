@@ -21,7 +21,6 @@ nav {
 		background: $color-principal;
 		color: $color-negro;
 		padding: 14px 16px;
-		display: inline-block;
 		text-decoration: none;
 		font-family: Prompt;
 	}
@@ -119,21 +118,20 @@ nav {
 
 	// carrito y usuario
 	.usuario {
-		display: inline;
-		position: absolute;
 		width: 3%;
 		height: 5%;
 		left: 92%;
 	}
 
 	.carrito {
-		display: inline;
-		position: absolute;
 		width: 3%;
 		height: 5%;
 		left: 95.5%;
 	}
-
+	.vacio{
+		display: flex;
+		flex-grow: 1;
+	}
 
 
 }
@@ -259,10 +257,13 @@ nav.acceder #login-content {
 	border-radius: 10px 0 10px 10px;
 	width: 250px;
 	display: none;
+	border: solid black 1.5px;
 }
 
 nav.acceder a {
 	text-decoration: none;
+	font-size: 18px;
+	font-family: Prompt;
 }
 
 nav.acceder {
